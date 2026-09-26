@@ -36,7 +36,7 @@ def bank():
             try:
                 amount = int(input("Enter your amount \n"))
                 if amount <=0:
-                    raise AddZeroError("You canot withdraw 0")
+                    raise AddZeroError("You cannot withdraw 0")
                 if amount > balance:
                     raise fundsError(f"You cannot with draw this amount. Your balance is {balance}")
             
