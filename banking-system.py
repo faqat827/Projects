@@ -13,7 +13,7 @@ def bank():
         print("3 Exist")
         
         try:
-            choice = int(input("Select 1-3"))
+            choice = int(input("Select 1-3 \n"))
         except ValueError:
             print("Please chose the valid number")
         
@@ -21,7 +21,7 @@ def bank():
     
         if choice == 1:
             try:
-                amount = int(input("Enter your amount"))
+                amount = int(input("Enter your amount \n"))
                 if amount <=0:
                     raise AddZeroError("You canot add zero")
                 balance += amount
@@ -34,7 +34,7 @@ def bank():
 
         elif choice == 2:
             try:
-                amount = int(input("Enter your amount"))
+                amount = int(input("Enter your amount \n"))
                 if amount <=0:
                     raise AddZeroError("You canot withdraw 0")
                 if amount > balance:
