@@ -50,7 +50,7 @@ def bank():
                 print(f"Error: {e}")
                 
         elif choice == 3:
-            print("Thanks for visit our bank")
+            print("Thanks for visit our bank. Have a nice day")
             break
         
         else:
