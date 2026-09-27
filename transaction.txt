@@ -1,0 +1,16 @@
+Transaction: Deposit, Amount: 200, Date: 2026-09-26
+Transaction: Withdraw, Amount: 1000, Date: 2026-09-26
+Transaction: Deposit, Amount: 10000, Date: 2026-09-26
+Transaction: Deposit, Amount: 200, Date: 2026-09-27
+Time: 2026-09-27 06:17:18.805240
+Transaction: Withdraw, Amount: 1000, Date: 2026-09-27
+Time: 2026-09-27 06:17:27.021952
+Transaction: Deposit, Amount: 200, Date: 2026-09-27
+Time: 2026-09-27 06:19:55.724377Transaction: Withdraw, Amount: 1000, Date: 2026-09-27
+Time: 2026-09-27 06:20:06.217423Transaction: Deposit, Amount: 200, Date: 2026-09-27
+Transaction: Deposit, Amount: 200, Date: 2026-09-27, Balance: 1200
+Transaction: Withdraw, Amount: 200, Date: 2026-09-27, Balance: 1000
+Transaction: Deposit, Amount: 10000, Date: 2026-09-27, Balance: 11000
+Transaction: Deposit, Amount: 1000, Date: 2026-09-27, Balance: 2000
+Transaction: Deposit, Amount: 20000, Date: 2026-09-27, Balance: 22000
+Transaction: Withdraw, Amount: 4000, Date: 2026-09-27, Balance: 18000
